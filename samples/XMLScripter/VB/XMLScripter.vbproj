@@ -29,11 +29,10 @@
     <ErrorReport>prompt</ErrorReport>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="Seagull.BarTender.Print, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-       <HintPath>..\..\..\Seagull.BarTender\bin\Release\Seagull.BarTender.Print.dll</HintPath>
-    </Reference>
+  <ItemGroup>      <Reference Include="Seagull.BarTender.Print, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+        <SpecificVersion>False</SpecificVersion>
+        <HintPath>..\..\..\lib\References\Seagull.BarTender.Print.dll</HintPath>
+      </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />

@@ -30,10 +30,9 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Interop.BarTender, Version=10.1.3.1, Culture=neutral, PublicKeyToken=109ff779a1b4cbc7, processorArchitecture=MSIL" />
-    <Reference Include="Seagull.BarTender.Print, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+    <Reference Include="Interop.BarTender, Version=10.1.3.1, Culture=neutral, PublicKeyToken=109ff779a1b4cbc7, processorArchitecture=MSIL" />     <Reference Include="Seagull.BarTender.Print, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Seagull.BarTender\bin\Release\Seagull.BarTender.Print.dll</HintPath>
+      <HintPath>..\..\..\lib\References\Seagull.BarTender.Print.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
