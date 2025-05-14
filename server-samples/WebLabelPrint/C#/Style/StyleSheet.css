@@ -1,0 +1,329 @@
+﻿body
+{
+   padding: 0px;
+   margin: 0px;
+   background-color: #486E95;
+}
+html
+{
+   background-color: #486E95;
+}
+li
+{
+   list-style-type: disc;
+   margin-left: 2em;
+}
+.Header
+{
+   padding: 19px 0px 19px 0px;
+   background-color: #0C4F71;
+   width: 100%;
+   background-image: url(../images/SeaBannerBG.gif);
+   white-space: nowrap;
+}
+.Navigation
+{
+   float: left;
+   padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.Navigation .MenuContainer
+{
+   background: white;
+}
+.Navigation .MenuTitle
+{
+   background: #0C4F71 url(../images/HeaderBg.png) repeat-x scroll 0 0px;
+   color: #FFFFFF !important;
+   font-size: 110%;
+   font-weight: bold;
+   text-align: left;
+   text-decoration: none;
+   margin-right: 0.1em;
+   padding: 0.2em 0.2em 0.2em 0.2em;
+}
+.Navigation .MenuHeader
+{
+   background: white;
+   padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.Navigation .MenuItem
+{
+   width: 10em;
+   line-height: 1.5;
+}
+.Navigation .MenuFooter
+{
+   padding-bottom: 0.5em;
+}
+.Navigation .MenuLink
+{
+   color: #006699;
+   padding-left: 20px;
+   padding-right: 5px;
+   float: left;
+   text-decoration: none;
+   white-space: nowrap;
+}
+.Navigation .MenuLink:hover
+{
+   text-decoration: underline;
+}
+.Navigation .MenuLinkSelected
+{
+   color: #006699;
+   background: #EEEEEE;
+   font-weight: bold;
+   padding-left: 20px;
+   padding-right: 10px;
+   float: left;
+   text-decoration: none;
+   white-space: nowrap;
+   width: 14em;
+}
+.ContentContainer
+{
+   margin-left: 17em;
+   padding-right: 0.5em;
+   padding-top: 0.5em;
+   min-width: 0em;
+   clear: right;
+}
+.ContentContainer .Content
+{
+   background: white;
+   padding: 25px 25px 25px 25px;
+   border: 0px;
+}
+
+.ContentContainer .Content h1
+{
+   color: #006699;
+   font-size: 150%;
+   font-weight: bold;
+}
+.AppTitle
+{
+   color: white;
+   font-size: 350%;
+   font-weight: bold;
+   vertical-align: text-top;
+   text-align: right;
+   white-space: nowrap;
+}
+.AppTitle td
+{
+   background-color: red;
+   white-space: nowrap;
+}
+
+.PrintMethod .PrintMethodLabel
+{
+   float: left;
+   clear: both;
+   margin: 0.6em 0.5em 0.5em 0em;
+}
+.PrintMethod .PrintMethodList
+{
+   float: left;
+   clear: right;
+   margin-left: 0em;
+   margin-bottom: 0.5em;
+   margin-top: 0.5em;
+}
+.LabelBrowser
+{
+   float: left;
+   clear: both;
+}
+
+.LabelBrowser .LabelBrowserItems
+{
+   padding: 0px 25px 25px 0px;
+   float: left;
+   text-align: center;
+}
+
+.LabelBrowser .LabelImage
+{
+   border: 1px solid black;
+}
+
+.LabelBrowser .LabelText
+{
+   text-align: center;
+   font-size: small;
+   white-space: nowrap;
+   color: Black;
+}
+
+.ManagePrintEnginesContent .StartStopPanel
+{
+   margin-left: 2em;
+}
+.ManagePrintEnginesContent .StartStopPanel td
+{
+   padding: 0.1em 0.1em 0.1em 0.1em;
+}
+.ManagePrintEnginesContent .StartStopPanel .Column1
+{
+   width: 12em;
+}
+.ManagePrintEnginesContent .StartStopPanel .Column2
+{
+   width: 4.5em;
+}
+.ManagePrintEnginesContent .StartStopPanel .Column3
+{
+   width: 5em;
+}
+.ManagePrintEnginesContent .Button, .TextBox
+{
+   width: 4em;
+}
+.ManagePrintEnginesContent .StatusContent
+{
+   margin-left: 2em;
+}
+
+.Alert
+{
+   background: #fff6bf;
+   background-position: 15px 50%;
+   text-align: left;
+   padding: 5px 20px 5px 20px;
+   border-top: 2px solid #ffd324;
+   border-bottom: 2px solid #ffd324;
+}
+.Alert td
+{
+   background-color: #fff6bf;
+   width: 100%;
+}
+.Alert .AlertClose
+{
+   vertical-align: text-top;
+   width: 100%;
+   text-align: right;
+   padding-left: 1em;
+}
+
+.Alert .AlertClose a
+{
+   color: #486E95;
+}
+
+.Alert .AlertClose a:hover
+{
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.Alert hr
+{
+   color: #ffd324;
+   background: #ffd324;
+   height: 1px;
+   width: 100%;
+   border: none;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+
+.PropertyTable, .PropertyTable td
+{
+   border-width: 1px;
+   border-color: #CACDD3;
+   border-style: solid;
+   border-spacing: 0px;
+   border-collapse: collapse;
+}
+
+.PropertyTable td
+{
+   padding: 0px 10px 0px 10px;
+}
+.PropertyLabel
+{
+   font-weight: bold;
+   white-space: nowrap;
+}
+
+.TableHeader, .PropertyTable th, .TableHeader td
+{
+   background: #0C4F71 url(../images/HeaderBg.png) repeat-x scroll 0 0px;
+   color: White;
+   font-weight: bold;
+   padding: 0px 10px 0px 10px;
+   border-bottom: solid 2px #CACDD3;
+   white-space: nowrap;
+}
+
+.TableEvenRow
+{
+   background: #EEEEEE;
+}
+
+.TableOddRow
+{
+   background: #FAFAFA;
+}
+
+.PrintPanel
+{
+   float: left;
+   clear: left;
+   border-width: 1px;
+   border-color: #CACDD3;
+   border-style: solid;
+   margin-bottom: 1em;
+}
+
+.PrintPanel td
+{
+   padding: 0.1em 0.5em 0.1em 0.5em;
+   white-space: nowrap;
+}
+.PrintPanel tbody
+{
+   background-color: #EEEEEE;
+}
+
+.PrintPreviewContainer
+{
+   background-color: black;
+   padding: 0.2em 0.2em 0.2em 0.2em;
+}
+.PrintPreviewToolbar
+{
+   background-color: #EEEEEE;
+   padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
+.PrintPreviewToolbar .LabelFileName
+{
+   padding-left: 3em;
+}
+
+.PrintPreviewToolbar td
+{
+   padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
+.PrintPreviewBackground
+{
+   background-color: #AAAAAA;
+   padding: 1.2em 1.2em 1.2em 1.2em;
+}
+
+.PromptLine
+{
+   border-color: #486E95;
+   border-style: solid;
+   border-width: 1px;
+}
+.PromptBackground
+{
+   background-color: #EEEEEE;
+}
