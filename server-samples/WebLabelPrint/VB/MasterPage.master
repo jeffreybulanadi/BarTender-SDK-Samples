@@ -1,0 +1,74 @@
+<%@ Master Language="vb" AutoEventWireup="true" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+	<title>Web Label Print Sample</title>
+	<link href="./Style/Reset.css" rel="stylesheet" type="text/css" /> 
+	<link href="./Style/StyleSheet.css" rel="stylesheet" type="text/css" /> 
+</head>
+<body>
+	<form id="_form" runat="server">
+		<div id="_container">
+			<div id="_header" class="Header">
+			   <asp:Image ID="_banner" ImageUrl="~/images/SeaBannerLeft.gif" AlternateText="http://www.seagullscientific.com" runat="server" />
+			</div>
+			<div id="_main">
+				<div id="_navigation" class="Navigation">
+					<table class="MenuContainer">
+						<tr>
+							<td class="MenuHeader">
+								<p class="MenuTitle">Select a Task</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="MenuItem">
+								<asp:HyperLink CssClass="MenuLink" ID="_home" runat="server" NavigateUrl="Default.aspx">Learn About Sample</asp:HyperLink>
+							</td>
+						</tr>
+						<tr>
+							<td class="MenuItem">
+								<asp:HyperLink CssClass="MenuLink" ID="_selectLabel" runat="server" NavigateUrl="SelectLabel.aspx">Select Label Format</asp:HyperLink>
+							</td>
+						</tr>
+						<tr>
+							<td class="MenuItem">
+								<asp:HyperLink CssClass="MenuLink" ID="_printToServer" runat="server" NavigateUrl="Print.aspx?print=server">Print Label Format</asp:HyperLink>
+							</td>
+						</tr>
+						<tr>
+							<td class="MenuItem">
+								<asp:HyperLink CssClass="MenuLink" ID="_printToClient" runat="server" NavigateUrl="Print.aspx?print=client">Print Label Format Over Internet</asp:HyperLink>
+							</td>
+						</tr>
+						<tr>
+							<td class="MenuItem">
+								<asp:HyperLink CssClass="MenuLink" ID="_manageEngines" runat="server" NavigateUrl="ManageEngines.aspx">Manage Print Engines</asp:HyperLink>
+							</td>
+						</tr>
+						<tr>
+							<td class="MenuItem">
+								<asp:HyperLink CssClass="MenuLink" ID="_printers" runat="server" NavigateUrl="Printers.aspx">Display Printers</asp:HyperLink>
+							</td>
+						</tr>
+						<tr>
+							<td class="MenuFooter"> </td>
+						</tr>
+					</table>
+				</div>
+				<div id="_contentContainer" class="ContentContainer">
+					<table>
+						<tr>
+							<td class="Content" valign="top" align="left">
+								<asp:contentplaceholder id="_content" runat="server">
+								</asp:contentplaceholder>
+							</td>
+						</tr>
+					</table>
+				</div>           
+			</div>
+		</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Ship_To_Name,Ship_To_Phone_Number,Ship_To_Company,Ship_To_Attention,Ship_To_Address_1,Ship_To_Address_2,Ship_To_City,Ship_To_State\Province,Ship_To_Postal_Code,Ship_To_Country,Country_Code,Class_Of_Service,Reference_Number,Package_Count,Package_Total,Package_Weight,Packages_Total_Weight,Address_Validation,Earliest_Delivery_Time,VCD,COD,COD_Cash,Hazardous_Materials,International_Billing_Options,UPS_Account_Number,Third_Party_Billing_Account_Number,Description,EDI_EDI-DOC_INV_or_KEY,POA_Power_Of_Attorney,SED_Shipper's_Export_Decloration,CO_Certificate_of_Origin
+David Lau,5558355000,Consolidated Communications,Office of the President,28 Calvert Street,North Wing,Harrison,NY,105871234,United States,840,13,2075486,1,1,6,6,Y,11:00,Y,107.95,,,,,,,,,,
+Eddie Money,5554234565,Top Hits,CD Production,100 Wilshire Blvd,5th Floor,Los Angeles,CA,902611234,United States,840,58,2026771,1,1,17,17,N,,Y,,,Y,,,,,,,,
+Steven Moondog,5556171188,Moon Images,Head Photographer,1 Commenwealth Ave,,Boston,MA,010221234,United States,840,42,1927410,1,2,6,18,N,14:00,N,,,,,,,,,,,
+Steven Moondog,5556171188,Moon Images,Head Photographer,1 Commenwealth Ave,,Boston,MA,010221234,United States,840,42,1927410,2,2,12,18,N,14:00,N,,,,,,,,,,,
+Tom Zarnow,5556335447,Mack Attack,Operations,7162 Douglas Place,Suite C,Seattle,WA,981121234,United States,840,41,2288437,1,1,5,5,Y,,Y,,34.00,,,,,,,,,
